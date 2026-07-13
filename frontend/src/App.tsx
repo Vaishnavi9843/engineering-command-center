@@ -1,8 +1,9 @@
 function App() {
   return (
-    <div>
+    <main>
       <h1>Engineering Command Center</h1>
-    </div>
+      <p>Developer Platform Dashboard</p>
+    </main>
   );
 }
 
