@@ -9,7 +9,6 @@ import (
 func RegisterRoutes(mux *http.ServeMux) {
 
 	mux.HandleFunc("/api/health", handlers.HealthHandler)
-	mux.HandleFunc("/api/health", handlers.HealthHandler)
 	mux.HandleFunc("/api/dashboard/summary", handlers.DashboardSummaryHandler)
 
 }
